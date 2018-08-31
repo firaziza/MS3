@@ -25,7 +25,7 @@ APPROACH:
 
 I made 2 classes. In one class called “Data”, i have created the getter and setter so that we can create the objects in the Main class. 
 
-In another class, I have started the connection with the database. Then i have parse the data from the csv file using comma split by and then i save the parsed data (whose column is equal to 10) in the data objects. And then i have saved the data objects inside list called "DataList". Then i have created SQL statement to create the table "X" and inserting the data from the list into the database. I have also printed the the data that are stored in the database in the console using select statement. 
+In another class called "Main", I have started the connection with the database. Then i have parse the data from the csv file using comma split by and then i save the parsed data (whose column is equal to 10) in the data objects. And then i have saved the data objects inside list called "DataList". Then i have created SQL statement to create the table "X" and inserting the data from the list into the database. I have also printed the the data that are stored in the database in the console using select statement. 
 
 I have created a csv file ("badDataCSV") to save the data file. I have used for loop and filewriter class to save each bad data into the CSV file.
 
